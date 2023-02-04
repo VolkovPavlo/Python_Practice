@@ -1,0 +1,48 @@
+import turtle
+t = turtle.Turtle()
+#square
+# t.forward(50)
+# t.left(90)
+# t.forward(50)
+# t.left(90)
+# t.forward(50)
+# t.left(90)
+# t.forward(50)
+
+#triangle
+# t.forward(200)
+# t.left(120)
+# t.forward(200)
+# t.left(120)
+# t.forward(200)
+
+#rectangle
+# t.forward(300)
+# t.right(90)
+# t.forward(150)
+# t.right(90)
+# t.forward(300)
+# t.right(90)
+# t.forward(150)
+
+#lines
+t.forward(150)
+t.up()
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.down()
+t.forward(150)
+t.up()
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.down()
+t.forward(150)
+t.up()
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.down()
+t.forward(150)
+t.up()
