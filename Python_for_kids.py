@@ -1,11 +1,12 @@
-a = 5
-b = 4
-print(a+b)
-list = ('1, 2, 3')
-print(list)
-print(list[0])
+check_list = [1, 2, 4, 'cat', 'dog']
+print(check_list)
+check_list.append('add_new')
+print(check_list)
+check_list.append(38)
+print(check_list)
 
-string = ('cat', 'dog', 'monkey')
-number = (10, 20, 30, 40)
-mylist = (string, number)
-print(mylist)
+
+squares = []
+for x in range(1, 11):
+    squares.append(x * 2)
+    print(squares )
